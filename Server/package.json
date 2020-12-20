@@ -1,0 +1,16 @@
+{
+  "name": "code_my_mobile",
+  "version": "1.0.0",
+  "description": "This project is for screening process for code my mobile",
+  "main": "main.js",
+  "scripts": {
+    "test": ""
+  },
+  "author": "Devashish Rana",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "mysqlx": "^1.1.7"
+  }
+}
