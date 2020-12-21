@@ -1,6 +1,0 @@
-{
-    "getAllUsers": "SELECT id,username,firstname,lastname,avatar from users LIMIT %LIMIT% OFFSET %OFFSET%",
-    "getFriends": "select u.id,u.firstname,u.lastname,u.avatar from users as u, friends as f where f.friend_id = u.id and f.user_id = %ID% order by 2,3 LIMIT %LIMIT% OFFSET %OFFSET%",
-    "getFriendsCount":"select COUNT(*) as count from users as u, friends as f where f.friend_id = u.id and f.user_id = %ID%",
-    "getUsersCount": "SELECT COUNT(*) as count from users"
-}
